@@ -1,0 +1,331 @@
+<!-- فقط أخبرني "أرسل الكود كاملًا" لو كنت تريد رؤية الكود بالكامل هنا في الرد -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hassan Nasser - Data Analyst Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="toggle-theme" class="toggle-theme">🌓</button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">Hassan Nasser</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title">Hassan Nasser</h1>
+        <p class="hero-subtitle">From Raw Data to Smart Insights</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="section-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm Hassan Nasser, a fresh graduate in Artificial Intelligence
+              from Kafr El Sheikh University (Class of 2024), with a strong GPA
+              of 3.5. I specialize in data analysis, visualization, and
+              full-stack development.
+            </p>
+            <p>
+              I’ve worked on real-world projects using Power BI, Excel, SQL
+              Server, and Python — delivering dashboards and insights for sales,
+              marketing, and large event datasets like the Olympics.
+            </p>
+            <p>
+              Through NTI's Data Analysis Internship and hands-on
+              freelance-style projects, I’ve gained experience in data modeling,
+              storytelling, and dashboard design.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <img src="assets/images/hassan.png" alt="My Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section bg-gradient">
+      <div class="section-container">
+        <h2 class="section-title">What I Do</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-database"></i></div>
+            <h3>Data Analysis</h3>
+            <p>
+              Analyzing and cleaning datasets to extract business insights using
+              Python, SQL, Excel, or Power BI.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+            <h3>Dashboards & BI</h3>
+            <p>
+              Building interactive dashboards for marketing, sales, and survey
+              insights using Power BI & Excel.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-code"></i></div>
+            <h3>AI & Machine Learning</h3>
+            <p>
+              Developing ML models and preprocessing data using Python (Pandas,
+              Scikit-learn).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools" class="section">
+      <div class="section-container">
+        <h2 class="section-title">My Toolkit</h2>
+        <div class="tools-content">
+          <div class="tools-section">
+            <h3 class="tools-subtitle">Tools</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Excel</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">SQL Server</span>
+              <span class="skill-tag">Tableau</span>
+              <span class="skill-tag">Power Query</span>
+              <span class="skill-tag">DAX</span>
+            </div>
+          </div>
+          <div class="tools-section">
+            <h3 class="tools-subtitle">Skills</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Data Cleaning</span>
+              <span class="skill-tag">Data Modeling</span>
+              <span class="skill-tag">Dashboarding</span>
+              <span class="skill-tag">Storytelling</span>
+              <span class="skill-tag">SQL Queries</span>
+              <span class="skill-tag">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section bg-alt">
+      <div class="section-container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/images/olympics.png" alt="Olympics Project" />
+            </div>
+            <div class="project-content">
+              <h3>NTI Graduation Project – Olympics Data Analysis</h3>
+              <div class="project-meta">
+                <span><i class="fas fa-tools"></i> SQL Server, Power BI</span>
+                <span
+                  ><i class="fas fa-star"></i> Data Modeling, KPI
+                  Dashboard</span
+                >
+              </div>
+              <p>
+                From raw Olympics datasets to an insightful dashboard built in
+                Power BI during my NTI training.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1LfkWhwPXi8Jb8tCrTtRoSogZEUBqgyn2"
+                class="btn btn-outline"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="assets/images/sales_dashboard.png"
+                alt="Sales Dashboard"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Sales Dashboard (Power BI)</h3>
+              <div class="project-meta">
+                <span><i class="fas fa-tools"></i> Power BI, Power Query</span>
+                <span
+                  ><i class="fas fa-star"></i> Sales Analysis, KPI
+                  Tracking</span
+                >
+              </div>
+              <p>
+                Created dashboards for analyzing sales, customers, and product
+                performance using DAX and visuals.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1Jl2o90lRacC-65yc7NVvDlm_j0QQ8IPi/view?usp=drive_link"
+                class="btn btn-outline"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="assets/images/marketing_dashboard.png"
+                alt="Marketing Campaign"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Marketing Campaign Dashboard</h3>
+              <div class="project-meta">
+                <span
+                  ><i class="fas fa-tools"></i> Excel, Power Query,
+                  PowerPoint</span
+                >
+                <span
+                  ><i class="fas fa-star"></i> Campaign Analysis, Customer
+                  Insights</span
+                >
+              </div>
+              <p>
+                Analyzed marketing performance using Excel tools — with
+                dashboard & final presentation.
+              </p>
+              <a
+                href="https://docs.google.com/spreadsheets/d/17kz0qc4G8Dj7NA00-bDRqs93pSPVH7wq/edit?usp=drive_link&ouid=117841079692759606735&rtpof=true&sd=true"
+                class="btn btn-outline"
+                >View Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="section-container">
+        <h2 class="section-title">Education & Certifications</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2025</div>
+            <div class="timeline-content">
+              <h3>Bachelor of Science in Artificial Intelligence</h3>
+              <p class="timeline-location">Kafr El Sheikh University</p>
+              <p>GPA: 3.5</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2024</div>
+            <div class="timeline-content">
+              <h3>NTI Machine Learning & Data Analysis</h3>
+              <p class="timeline-location">
+                National Telecommunication Institute (NTI)
+              </p>
+              <p>
+                Covered Power BI, Excel, SQL, Tableau, Python & real-world
+                projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a
+            href="assets/Hassan_Nasser_CV.pdf"
+            download
+            class="btn btn-primary"
+          >
+            <i class="fas fa-download"></i> Download My Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-gradient">
+      <div class="section-container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>
+              Currently seeking data analysis opportunities — feel free to reach
+              out anytime!
+            </p>
+            <div class="contact-details">
+              <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:hassannasser317@gmail.com"
+                  >hassannasser317@gmail.com</a
+                >
+              </p>
+              <div class="social-links">
+                <a
+                  href="http://www.linkedin.com/in/hassan-nasser-b09446212"
+                  class="social-link"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2024 Hassan Nasser. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
